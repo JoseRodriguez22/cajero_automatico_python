@@ -30,7 +30,7 @@ class Cajero:
 
     def menu(cuenta):
         cuenta.verificarPIN()
-        print("Bienvenido José Alberto Rodríguez Navarro\n")
+        print("Bienvenido José Alberto Rodríguez Navarro en la rama Develop\n")
         contador = 'y'
         while contador == 'y':
             print("Consultar saldo: 1\n" + "Retirar dinero: 2\n" + "Historicos de movimientos: 3\n")
